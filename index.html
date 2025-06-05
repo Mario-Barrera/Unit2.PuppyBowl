@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="layout">
+        <div class="main-content">
+            <h1>Puppy Bowl Players</h1>
+            <div class="card"></div>
+
+            <div class="bottom-layout">
+                <div class="form-container">
+                    <form id="players">
+                        <fieldset>
+                            <legend>Invite A Puppy</legend>
+                            <label for="nameInput">Name:
+                            <input type="text" id="nameInput" name="nameInput" required>
+                            </label>
+
+                            <label for="idInput">ID:
+                            <input type="number" id="idInput" name="idInput" min="0" required>
+                            </label>
+
+                            <label for="breed-type">Breed:
+                            <input type="text" id="breed-type" name="breed-type" required>
+                            </label>
+
+                            <label for="team">Team:
+                            <input type="text" id="team" name="team" required>
+                            </label>
+
+                            <label for="status">Status:
+                            <input type="text" id="status" name="status" required>
+                            </label>
+                    
+                            <label for="timeInput">Time:
+                            <input type="time" id="timeInput" name="timeInput" required>
+                            </label>
+
+                            <label for="imageUrl">ImageUrl:
+                            <input type="text" id="imageUrl" name="imageUrl" required>
+                            </label>
+
+                            <button type="submit" id="submit-btn">Invite Puppy</button>
+                        </fieldset>    
+                    </form>
+                </div>
+
+                <div class="new-players-section"> 
+                    <h2 class="newPlayersHeading">New Puppy Players</h2>    
+                    <div id="card-container"></div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
